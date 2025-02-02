@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in crafting efficient and user-centric web applications. My technical toolkit includes front-end technologies like React and back-end frameworks like Django, complemented by robust database management skills in PostgreSQL and MySQL. Over the years, I have successfully delivered projects ranging from CRM reporting tools in Odoo to social media and e-commerce applications using Django. My goal is to continue building innovative solutions that not only meet but exceed user and business expectations.
 `;
@@ -60,6 +61,20 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
+  },
+  {
+    title: "Student Management System | Django-React",
+    image: project6,
+    description:
+      "This is a full-stack web application that manage student records. The application is built using Django for the backend (API) and React for the frontend. It allows users to perform basic CRUD operations (Create, Read, Update, Delete) on student records, with a smooth user interface and seamless integration between the frontend and backend.",
+    technologies: [
+      "Bootstrap",
+      "Python",
+      "JavaScript",
+      "React",
+      "DjangoRestFramework",
+      "Postgresql",
+    ],
   },
   {
     title: "Tweet App | Django",
