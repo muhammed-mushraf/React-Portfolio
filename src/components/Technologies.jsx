@@ -1,6 +1,7 @@
 import { SiPython } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 // import { SiHtml5 } from "react-icons/si";
 // import { SiCss3 } from "react-icons/si";
@@ -84,16 +85,25 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          {/* <SiNodedotjs className="text-7xl" style={{ color: "green" }} />
+          <SiNodedotjs className="text-7xl" style={{ color: "green" }} />
         </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
-        > */}
+        >
+          <SiExpress className="text-7xl" style={{ color: "white" }} />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <SiDjango className="text-7xl" style={{ color: "#0d432f" }} />
         </motion.div>
+
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
