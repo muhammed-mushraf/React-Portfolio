@@ -8,13 +8,13 @@ export const HERO_CONTENT = `I am a dedicated full-stack developer with expertis
 `;
 
 export const EXPERIENCES = [
-  {
-    year: "02/2023 - 05/2023",
-    role: "Odoo Developer - Intern",
-    company: "Foxiom Leads Pvt Ltd Kakkanchery, Kerala.",
-    description: `Gained practical experience in developing and customizing Odoo modules under the guidance of experienced mentors.`,
-    technologies: ["Python", "JavaScript", "Xml", "Postgresql", "CSS"],
-  },
+  // {
+  //   year: "02/2023 - 05/2023",
+  //   role: "Odoo Developer - Intern",
+  //   company: "Foxiom Leads Pvt Ltd Kakkanchery, Kerala.",
+  //   description: `Gained practical experience in developing and customizing Odoo modules under the guidance of experienced mentors.`,
+  //   technologies: ["Python", "JavaScript", "Xml", "Postgresql", "CSS"],
+  // },
   {
     year: "08/2023 - 12/2023",
     role: "Odoo Developer - Apprenticeship",
